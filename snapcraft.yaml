@@ -1,5 +1,5 @@
 name: q
-version: '1.6.3-1'
+version: 'master'
 summary: run SQL directly on CSV or TSV files
 description: |
  q is a command line tool that allows direct execution of SQL-like queries on
@@ -19,6 +19,5 @@ parts:
     plugin: dump
     source: https://github.com/harelba/q
     source-type: git
-    source-tag: 1.6.3
     stage-packages:
       - python
